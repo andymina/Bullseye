@@ -13,6 +13,11 @@
 		3222145926C0835100D7E2FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3222145726C0835100D7E2FF /* Main.storyboard */; };
 		3222145B26C0835300D7E2FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3222145A26C0835300D7E2FF /* Assets.xcassets */; };
 		3222145E26C0835300D7E2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3222145C26C0835300D7E2FF /* LaunchScreen.storyboard */; };
+		32316DD226C9B136003B2ABA /* HighScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32316DD126C9B136003B2ABA /* HighScoresViewController.swift */; };
+		32316DD526C9BC91003B2ABA /* HighScoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32316DD426C9BC91003B2ABA /* HighScoreItem.swift */; };
+		32316DD826C9C217003B2ABA /* PersistencyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32316DD726C9C217003B2ABA /* PersistencyHelper.swift */; };
+		32316DDF26C9C8B9003B2ABA /* EditHighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32316DDE26C9C8B9003B2ABA /* EditHighScoreViewController.swift */; };
+		323A06C626C09EDE008CC6F9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A06C526C09EDE008CC6F9 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		3222145A26C0835300D7E2FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3222145D26C0835300D7E2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3222145F26C0835300D7E2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32316DD126C9B136003B2ABA /* HighScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoresViewController.swift; sourceTree = "<group>"; };
+		32316DD426C9BC91003B2ABA /* HighScoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreItem.swift; sourceTree = "<group>"; };
+		32316DD726C9C217003B2ABA /* PersistencyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencyHelper.swift; sourceTree = "<group>"; };
+		32316DDE26C9C8B9003B2ABA /* EditHighScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHighScoreViewController.swift; sourceTree = "<group>"; };
+		323A06C526C09EDE008CC6F9 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				3222145326C0835100D7E2FF /* SceneDelegate.swift */,
 				3222145526C0835100D7E2FF /* ViewController.swift */,
 				3222145726C0835100D7E2FF /* Main.storyboard */,
+				32316DDE26C9C8B9003B2ABA /* EditHighScoreViewController.swift */,
+				32316DD126C9B136003B2ABA /* HighScoresViewController.swift */,
+				32316DD426C9BC91003B2ABA /* HighScoreItem.swift */,
+				32316DD726C9C217003B2ABA /* PersistencyHelper.swift */,
+				323A06C526C09EDE008CC6F9 /* AboutViewController.swift */,
 				3222145A26C0835300D7E2FF /* Assets.xcassets */,
 				3222145C26C0835300D7E2FF /* LaunchScreen.storyboard */,
 				3222145F26C0835300D7E2FF /* Info.plist */,
@@ -137,9 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32316DD226C9B136003B2ABA /* HighScoresViewController.swift in Sources */,
+				32316DD526C9BC91003B2ABA /* HighScoreItem.swift in Sources */,
+				32316DD826C9C217003B2ABA /* PersistencyHelper.swift in Sources */,
 				3222145626C0835100D7E2FF /* ViewController.swift in Sources */,
 				3222145226C0835100D7E2FF /* AppDelegate.swift in Sources */,
+				323A06C626C09EDE008CC6F9 /* AboutViewController.swift in Sources */,
 				3222145426C0835100D7E2FF /* SceneDelegate.swift in Sources */,
+				32316DDF26C9C8B9003B2ABA /* EditHighScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
